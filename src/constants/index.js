@@ -1,76 +1,57 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a dedicated and results-driven full stack developer with a strong foundation in crafting dynamic, scalable web applications. With hands-on experience in front-end technologies like React, and expertise in back-end development using Node.js, MongoDB, and Express, I have built robust solutions that enhance user experiences and improve efficiency. I am passionate about leveraging my skills in JavaScript, Python, and machine learning to develop innovative solutions. I thrive in collaborative environments and aim to continuously contribute to business success through technical innovation and problem-solving.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a passionate full stack developer with a knack for building intuitive, scalable, and high-performing web applications. With hands-on experience across technologies like React, Node.js, MongoDB, and PyTorch, I enjoy the challenge of solving complex problems and continuously improving my skills. My journey in web development, coupled with my experience in machine learning, has fueled my drive to create innovative solutions that deliver exceptional user experiences. I thrive in fast-paced environments, enjoy working collaboratively, and have a strong commitment to writing clean, efficient code. Beyond development, I am always exploring new tech trends and actively contribute to projects that push boundaries.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "March 2023 - May 2024",
+    role: "Software Developer",
+    company: "AIdroid",
+    description: `Developed a segmentation model trained on 60,000 images, achieving 99% accuracy with an error rate as low as 0.5%. Implemented data correction techniques to enhance performance and developed a classifier to optimize car aesthetics, driving higher customer engagement. Collaborated with cross-functional teams to identify and resolve software bugs, improving overall system reliability.`,
+    technologies: ["PyTorch", "Python", "Machine Learning", "Computer Vision", "Git/GitHub"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "November 2022 - February 2023",
+    role: "Web Developer Intern",
+    company: "Conscript HR Advisors Pvt Ltd",
+    description: `As a Web Development Intern, I implemented web development solutions on the Wix platform, contributing to the creation and maintenance of multiple company websites. I designed and developed user-friendly interfaces for over 20 web pages, applying advanced front-end design principles that enhanced user experience and increased engagement by 15%. My role involved optimizing web development processes, resulting in a 20% reduction in project timelines.`,
+    technologies: ["HTML", "CSS", "Wix", "JavaScript"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Portfolio Website",
+    image: project3,
+    description:
+      "Developed a personal portfolio website to showcase my projects and skills as a full stack developer. Utilized HTML and Tailwind CSS for the front-end, enabling a responsive and visually appealing user interface. Leveraged React to create interactive components and enhance user experience. The site features smooth navigation and optimized performance, allowing visitors to easily explore my work and experiences.",
+    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+  },
+  {
+    title: "HireHub",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+      "Created a job-seeking platform that allows users to create profiles and search for job listings efficiently. Leveraged technologies such as HTML, CSS, JavaScript, Node.js, and MongoDB to build a robust and scalable web application. Implemented a user-friendly interface with seamless navigation and optimized data retrieval, resulting in a 20% improvement in performance for job listings and user profiles. The project emphasizes a strong focus on user experience and data management.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    projectLink:"https://hirehubv2.onrender.com/#"
   },
   {
     title: "Task Management App",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Developed a feature-rich To-Do application that allows users to manage tasks effectively. Utilized HTML, CSS, and React to create a responsive and intuitive user interface, while implementing a database to store user tasks. The app includes functionalities such as task categorization, due dates, and user authentication, enhancing productivity and user engagement while providing a seamless experience.",
+    technologies: ["HTML", "CSS", "React", "Mongobd"],
+    projectLink:"https://todo-app-nine-iota-47.vercel.app/"
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Hyderabad, Telangana, India - 500030 ",
+  phoneNo: "+91-9705142006 ",
+  email: "nithinkumarmeena994@gmail.com ",
 };
+

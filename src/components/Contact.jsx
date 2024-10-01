@@ -1,4 +1,4 @@
-import { CONTACT } from "../constants"
+import { CONTACT } from "../constants/index"
 import { motion } from "framer-motion"
 
 const Contact = () => {
@@ -28,7 +28,7 @@ const Contact = () => {
                 </motion.p>
 
                 <motion.a
-                    href="" className="border-b">
+                    href="#" target="blank" className="border-b">
                     {CONTACT.email}
                 </motion.a>
 

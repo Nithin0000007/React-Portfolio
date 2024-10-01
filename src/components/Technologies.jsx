@@ -1,10 +1,10 @@
 import { RiReactjsLine } from "react-icons/ri"
 import { TbBrandNextjs } from "react-icons/tb"
 import { SiMongodb } from "react-icons/si"
-import { DiRedis } from "react-icons/di"
 import { FaNodeJs } from "react-icons/fa"
 import { BiLogoPostgresql } from "react-icons/bi"
 import { motion } from "framer-motion"
+import { SiPytorch } from "react-icons/si";
 
 const iconVariants = (duration) => ({
     initial: { y: -10 },
@@ -64,7 +64,7 @@ const Technologies = () => {
                     initial="initial"
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <DiRedis className="text-7xl text-red-700" />
+                    <SiPytorch className="text-7xl" style={{ color: "rgb(231, 74, 43)" }} />
                 </motion.div>
 
                 <motion.div

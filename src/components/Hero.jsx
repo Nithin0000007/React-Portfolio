@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants"
-import profilePic from "../assets/kevinRushProfile.png"
+import profilePic from "../assets/nithinpic.jpg"
 import { motion } from "framer-motion"
 
 
@@ -22,7 +22,7 @@ const Hero = () => {
                             variants={container(0)}
                             initial="hidden"
                             animate="visible"
-                            className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl">Kevin Rush
+                            className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl">Nithin Kumar
                         </motion.h1>
                         <motion.span
                             variants={container(0.5)}
@@ -38,7 +38,7 @@ const Hero = () => {
                         </motion.p>
                     </div>
                 </div>
-                <div className="w-full lg:w-1/2 lg:p-8">
+                <div className="w-full lg:w-1/3 lg:ml-40">
                     <div className="flex justify-center">
                         <motion.img 
                         initial={{x:100,opacity:0}}
