@@ -30,6 +30,7 @@ export const PROJECTS = [
     description:
       "Developed a personal portfolio website to showcase my projects and skills as a full stack developer. Utilized HTML and Tailwind CSS for the front-end, enabling a responsive and visually appealing user interface. Leveraged React to create interactive components and enhance user experience. The site features smooth navigation and optimized performance, allowing visitors to easily explore my work and experiences.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    projectLink: "https://react-portfolio-tau-ebon.vercel.app/"
   },
   {
     title: "HireHub",

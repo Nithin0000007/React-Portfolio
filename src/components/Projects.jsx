@@ -32,7 +32,7 @@ const Projects = () => {
                             {/* <h6 className="mb-2 font-semibold">{project.title}  {<FaLink />}</h6> */}
                             <div className="flex items-center">
                                 <h6 className="mb-2 font-semibold">{project.title}</h6>
-                                {(project.title !== 'Portfolio Website' && project.title !== 'HireHub') ? (
+                                {( project.title !== 'HireHub') ? (
                                     <a href={project.projectLink} target="blank">
                                         <FaExternalLinkAlt className="ml-2 mb-2 text-red-500" />
                                     </a>
