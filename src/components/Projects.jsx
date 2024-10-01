@@ -1,7 +1,5 @@
 import { PROJECTS } from "../constants"
 import { motion } from "framer-motion"
-import { CiLink } from "react-icons/ci";
-import { FaLink } from "react-icons/fa";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 const Projects = () => {
@@ -32,11 +30,11 @@ const Projects = () => {
                             {/* <h6 className="mb-2 font-semibold">{project.title}  {<FaLink />}</h6> */}
                             <div className="flex items-center">
                                 <h6 className="mb-2 font-semibold">{project.title}</h6>
-                                {( project.title !== 'HireHub') ? (
-                                    <a href={project.projectLink} target="blank">
-                                        <FaExternalLinkAlt className="ml-2 mb-2 text-red-500" />
-                                    </a>
-                                ) : null}
+
+                                <a href={project.projectLink} target="blank">
+                                    <FaExternalLinkAlt className="ml-2 mb-2 text-red-500" />
+                                </a>
+
 
                             </div>
                             <p className="mb-4 text-neutral-400">{project.description}</p>
