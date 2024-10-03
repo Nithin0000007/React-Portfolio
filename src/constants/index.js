@@ -38,7 +38,7 @@ export const PROJECTS = [
     description:
       "Created a job-seeking platform that allows users to create profiles and search for job listings efficiently. Leveraged technologies such as HTML, CSS, JavaScript, Node.js, and MongoDB to build a robust and scalable web application. Implemented a user-friendly interface with seamless navigation and optimized data retrieval, resulting in a 20% improvement in performance for job listings and user profiles. The project emphasizes a strong focus on user experience and data management.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-    projectLink:"https://hirehubv2.onrender.com/#"
+    projectLink:"https://github.com/Nithin0000007/Hirehub"
   },
   {
     title: "Task Management App",

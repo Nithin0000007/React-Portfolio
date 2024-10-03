@@ -1,4 +1,4 @@
-import logo from "../assets/nkmlogo.png"
+import logo from "../assets/logo1.png"
 import {FaLinkedin} from "react-icons/fa"
 import {FaGithub} from "react-icons/fa"
 import {FaInstagram} from "react-icons/fa"
