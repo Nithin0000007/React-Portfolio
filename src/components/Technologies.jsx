@@ -1,8 +1,7 @@
 import { RiReactjsLine } from "react-icons/ri"
 import { TbBrandNextjs } from "react-icons/tb"
-import { SiMongodb } from "react-icons/si"
+import { SiCplusplus, SiMongodb } from "react-icons/si"
 import { FaNodeJs } from "react-icons/fa"
-import { BiLogoPostgresql } from "react-icons/bi"
 import { motion } from "framer-motion"
 import { SiPytorch } from "react-icons/si";
 
@@ -80,7 +79,7 @@ const Technologies = () => {
                     initial="initial"
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <BiLogoPostgresql className="text-7xl text-sky-700" />
+                    <SiCplusplus className="text-7xl text-blue-500" />
                 </motion.div>
 
             </motion.div>
