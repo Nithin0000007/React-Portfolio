@@ -20,7 +20,9 @@ const Projects = () => {
                             initial={{ x: -100, opacity: 0 }}
                             transition={{ duration: 0.5 }}
                             className="w-full lg:w-1/4">
-                            <img className="mb-6 rounded" src={project.image} width={150} height={150} alt="" />
+                            <a href={project.projectLink} target="blank">
+                                <img className="mb-6 rounded w-[90%]" src={project.image} width={150} height={150} alt="" />
+                            </a>
                         </motion.div>
 
                         <motion.div className="w-full max-w-xl lg:w-3/4"

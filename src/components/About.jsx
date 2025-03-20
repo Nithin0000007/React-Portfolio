@@ -1,4 +1,3 @@
-import aboutImage from '../assets/about.jpg'
 import { ABOUT_TEXT } from '../constants/index'
 import { motion } from "framer-motion"
 
@@ -12,19 +11,19 @@ const About = () => {
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2 lg:p-8">
           <motion.div
-            whileInView={{opacity:1,x:0}}
-            initial={{x:-100,opacity:0}}
-            transition={{duration:0.5}}
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ x: -100, opacity: 0 }}
+            transition={{ duration: 0.5 }}
             className="flex items-center justify-center">
-            <img src={aboutImage} alt="" />
+            <img src={'https://res.cloudinary.com/devw55qwa/image/upload/v1740651341/IMG_2650_2_ceybyc.jpg'} alt="" />
           </motion.div>
         </div>
-        <motion.div 
-        whileInView={{opacity:1,x:0}}
-        initial={{opacity:0,x:100}}
-        transition={{duration:0.5}}
-        className="w-full lg:w-1/2">
-          <div className='flex justify-center lg:justify-start'>
+        <motion.div
+          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, x: 100 }}
+          transition={{ duration: 0.5 }}
+          className="w-full lg:w-1/2">
+          <div className='flex justify-center  lg:justify-start'>
             <p className='my-2 max-w-xl py-6'>{ABOUT_TEXT}</p>
           </div>
         </motion.div>

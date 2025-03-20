@@ -44,7 +44,7 @@ const Hero = () => {
                         initial={{x:100,opacity:0}}
                         animate={{x:0,opacity:1}}
                         transition={{duration:1, delay:1.2}}
-                        src={profilePic} 
+                        src={'https://res.cloudinary.com/devw55qwa/image/upload/v1740464534/IMG_20231211_235340_533_q8fbvo.jpg'} 
                         alt="" />
                     </div>
                 </div>

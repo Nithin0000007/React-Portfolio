@@ -1,9 +1,7 @@
 import { RiReactjsLine } from "react-icons/ri"
-import { TbBrandNextjs } from "react-icons/tb"
-import { SiCplusplus, SiMongodb } from "react-icons/si"
+import { SiCplusplus, SiMongodb, SiPython, SiWix, SiJavascript, SiPytorch } from "react-icons/si"
 import { FaNodeJs } from "react-icons/fa"
 import { motion } from "framer-motion"
-import { SiPytorch } from "react-icons/si";
 
 const iconVariants = (duration) => ({
     initial: { y: -10 },
@@ -25,7 +23,8 @@ const Technologies = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 1.5 }}
-                className="my-20 text-center text-4xl">Technologies
+                className="my-20 text-center text-4xl">
+                Technologies
             </motion.h2>
 
             <motion.div
@@ -40,14 +39,6 @@ const Technologies = () => {
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4">
                     <RiReactjsLine className="text-7xl text-cyan-400" />
-                </motion.div>
-
-                <motion.div
-                    variants={iconVariants(4)}
-                    initial="initial"
-                    animate="animate"
-                    className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <TbBrandNextjs className="text-7xl" />
                 </motion.div>
 
                 <motion.div
@@ -80,6 +71,30 @@ const Technologies = () => {
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4">
                     <SiCplusplus className="text-7xl text-blue-500" />
+                </motion.div>
+
+                <motion.div
+                    variants={iconVariants(3)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <SiPython className="text-7xl" style={{ color: "#306998" }} />
+                </motion.div>
+
+                <motion.div
+                    variants={iconVariants(4)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <SiWix className="text-7xl" style={{ color: "#008CFF" }} />
+                </motion.div>
+
+                <motion.div
+                    variants={iconVariants(3.5)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <SiJavascript className="text-7xl" style={{ color: "#F7DF1E" }} />
                 </motion.div>
 
             </motion.div>
